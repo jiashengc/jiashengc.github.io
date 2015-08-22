@@ -5,14 +5,14 @@
 })(jQuery);
 
 $(function() {
-  var $container = $('#content');
+  var $container = $('.content');
   $container.imagesLoaded(function() {
     $container.masonry({
-      itemSelector: '#characterbox',
+      itemSelector: '.characterbox',
     });
   });
   $container.infinitescroll({
-      itemSelector: "#characterbox",
+      itemSelector: ".characterbox",
       navSelector: "div.pagination",
       nextSelector: ".pagination a#next",
       loadingImg: "",
