@@ -1,11 +1,11 @@
 /* Container */
  
-.container {
+#container {
 width: 100%;
 margin: 0 auto;
 }
  
-.content {
+#content {
 float:center;
 width: 100%!important;
 padding:5px;
@@ -13,7 +13,7 @@ background:transparent;
 margin-top:30px!important;
 }
  
-.characterbox {
+#characterbox {
 width:220px;
 background:#fff;
 border-style: solid;
@@ -25,14 +25,14 @@ margin-right:10px;
 margin-bottom:20px;
 }
  
-.characterbox img {
+#characterbox img {
 width:200px;
 height:250px;
 padding:10px;
 background:#fff;
 }
  
-.infobox {
+#infobox {
 width:210px;
 height: 160px;
 overflow: scroll;
