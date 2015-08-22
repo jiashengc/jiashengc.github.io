@@ -1,15 +1,4 @@
-/* General */
- 
-body {
-margin:0px;
-font-family: 'Roboto', sans-serif;
-color:#8f8f8f;
-font-size:10px;
-letter-spacing:0.5px;
-background:#e8e8e8;
-}
- 
- /* Container */
+/* Container */
  
 .container {
 width: 90%;
