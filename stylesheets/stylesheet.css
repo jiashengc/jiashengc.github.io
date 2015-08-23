@@ -6,6 +6,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
+::-webkit-scrollbar {width:7px;background:#ffffff;}
+::-webkit-scrollbar-thumb {background:#d3d3d3;}
+
 * {
   box-sizing: border-box;
 }
