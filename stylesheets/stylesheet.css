@@ -21,10 +21,7 @@ label {
 }
 
 .custom-restricted-width {
-    /* To limit the menu width to the content of the menu: */
     display: inline-block;
-    /* Or set the width explicitly: */
-    /* width: 10em; */
 }
 
 .say-no-to-text-decoration {
@@ -36,10 +33,12 @@ label {
 }
 
 .view-all {
+  font-size: 14px;
   margin-left: 0px;
   width: 100px;
   border: 2px #34495e solid;
   border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .pure-img-responsive {
@@ -61,7 +60,7 @@ label {
 }
 
 .about-me-top-padding {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .pure-menu-item {
@@ -187,6 +186,10 @@ a.pure-button-primary {
   margin-right: 50px;
 }
 
+.content-paragraph {
+  font-size: 17px;
+}
+
 .content-wrapper {
   position: absolute;
   top: 87%;
@@ -197,6 +200,7 @@ a.pure-button-primary {
 }
 
 .content-head {
+  font-size: 35px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -215,6 +219,7 @@ a.pure-button-primary {
 }
 
 .content-subhead {
+  font-size: 30px;
   font-weight: 100;
   color: #585858;
 }
