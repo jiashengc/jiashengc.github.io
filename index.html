@@ -1,77 +1,115 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>Chong Jia Sheng | Game Developer Wannabe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="http://i.imgur.com/SUlSVB6.png">
-  
-  <!-- Graphics stylesheets -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+
+
+  <!-- Pure.css -->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  
-  <!-- CSS Animation -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/hover.css" media="all">
-  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css" media="all">
-  
-  <!-- Scripts -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://static.tumblr.com/7qjmkr5/IUmmdsy41/jquery.style-my-tooltips.js"></script>
-  <script type="text/javascript" src="http://rawgit.com/jiashengc/jiashengc.github.io/master/javascripts/portfolio-arrangement.js"></script>
-  <script src="http://static.tumblr.com/6hsqxdt/QBym35odk/jquery.masonry.js"></script>
 </head>
 
 <body>
-  <section class="page-header">
-    <!-- The header of the website-->
-    <h1 class="animated fadeIn project-name">Hi, I'm Chong Jia Sheng</h1>
-    <h2 class="animated fadeIn project-tagline">I'm a student from Kuala Lumpur, Malaysia.</h2>
-  </section>
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">Game Developer Wannabe</a>
 
-  <section class="main-content">
-    <ul>
-      <!-- Navigation bar -->
-      <li><a href="http://jiashengc.github.io" class="hvr-underline-from-center">About</a></li>
-      <li><a href="http://jiashengc.github.io/portfolio/" class="hvr-underline-from-center">Portfolio</a></li>
-      <li><a href="#" class="hvr-underline-from-center">Résumé</a></li>
-      <li><a href="#" class="hvr-underline-from-center">Contact</a></li>
-      <li><a href="http://jiashengc.github.io/blog" class="hvr-underline-from-center">Blog</a></li>
-    </ul>
-    
-    <!-- 1st Divider -->
-    <div class="koi"></div>
-    
-    <h3>
-      <a class href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my personal website.
-    </h3>
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
+        <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+          <a href="#" class="pure-menu-link">Contact</a>
+          <ul class="pure-menu-children">
+            <li class="pure-menu-item is-left"><a href="mailto:jiashengc@hotmail.com" class="pure-menu-link">Email</a></li>
+            <li class="pure-menu-item is-left"><a href="https://github.com/jiashengc" class="pure-menu-link">GitHub</a></li>
+            <li class="pure-menu-item is-left"><a href="https://my.linkedin.com/in/jiashengc" class="pure-menu-link">LinkedIn</a></li>
+            <li class="pure-menu-item is-left"><a href="https://twitter.com/MrJiashengc" class="pure-menu-link">Twitter</a></li>
+          </ul>
+    </div>
+  </div>
 
-    <p>
-      I'm an AUSTMAT student at Sunway University College who is interested in becoming a software engineer. I'm currently learning code at <a href="http://www.freecodecamp.com/jiashengc">freecodecamp</a> during my spare time.
-      <br>You can view my GitHub profile <a href="https://github.com/jiashengc">here</a>.
-    </p>
-    
-    <!-- 2nd Diveder -->
-    <div class="koi"></div>
-    
-    <h3>
-      <a class href="#test" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skills
-    </h3>
+  <div class="splash-container">
+    <div class="splash">
+      <h1 class="splash-head">Chong Jia Sheng</h1>
+      <p class="splash-subhead">
+        I'm a student from Kuala Lumpur, Malaysia.
+      </p>
+      <!-- <p>
+        <a href="http://purecss.io" class="pure-button">?</a>
+      </p> -->
+    </div>
+  </div>
 
-    <p>
-      Programming:
-      <small>html, css, javascript, python.</small>
-    </p>
-    
-    <!-- Footer of the website -->
-    <footer class="site-footer">
-      <small><span class="site-footer-credits">This page is hosted by <a href="https://pages.github.com">GitHub Pages</a></span></small>
-    </footer>
+  <div class="content-wrapper">
+    <!-- About Me -->
+    <div class="content">
+      <br>
+      <br>
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2 is-left">
+          <h2 class="content-head">About Me</h2>
+          <p>Things that you might want to know.</p>
+        </div>
 
-  </section>
+        <div class="pure-u-1 pure-u-md-1-2 is-right">
+          <div class="about-me-top-padding"></div>
+          <h3 class="content-subhead is-left">Who am I?</h3>
+          <p class="content-paragraph is-left">I'm an AUSTMAT student at Sunway University College who is interested in becoming a software engineer. I'm currently learning code at freecodecamp during my spare time.
+            <p>
+              <h3 class="content-subhead is-left">Skills</h3>
+              <p class="content-paragraph is-left">
+                Languages: html, css, javascript, python
+                <br> Frameworks: jQuery, Purecss, Bootstrap
+              </p>
+              <br>
+        </div>
+      </div>
+    </div>
 
+    <!-- Portfolio -->
+    <div class="content">
+      <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-2">
+          <h2 class="content-head">Portfolio</h2>
+          <a href="#" class="say-no-to-text-decoration"><h5 class="view-all is-center">View All</h5></a>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="portfolio-top-padding"></div>
+          <div class="is-right">
+            <div class="portfolio-border">
+              <a href="http://jiashengc.github.io/anime-quote-generator/" class="pure-menu-link"><h4 class="content-head2 is-center">Anime Quote Generator</h4></a>
+            </div>
+            <div class="portfolio-border">
+              <a href="#" class="pure-menu-link"><h4 class="content-head2 is-center">Something</h4></a>
+            </div>
+            <div class="portfolio-border">
+              <a href="#" class="pure-menu-link"><h4 class="content-head2 is-center">Future Bomb</h4></a>
+            </div>
+            <div class="portfolio-border">
+              <a href="#" class="pure-menu-link"><h4 class="content-head2 is-center">Future Video Game</h4></a>
+            </div>
+            <div class="portfolio-border">
+              <a href="#" class="pure-menu-link"><h4 class="content-head2 is-center">Future Visual Novel</h4></a>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Footer -->
+    <div class="footer l-box is-center">
+      <small>Copyright © Chong Jia Sheng 2015. All Rights Reserved</small>
+    </div>
+
+  </div>
 </body>
-
-</html>
+</hmtl>
