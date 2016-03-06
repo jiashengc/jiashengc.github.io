@@ -6,6 +6,19 @@
 
 /* Toggle Styles */
 
+.content h1 {
+    font-size: 50px;
+}
+
+.content h2 {
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.content p {
+    color: #666666;
+    font-size: 20px;
+}
 
 #wrapper {
     padding-left: 0;
@@ -98,8 +111,8 @@
 }
 
 #wrapper {
-        padding-left: 250px;
-    }
+    padding-left: 250px;
+}
 
 #sidebar-wrapper {
     width: 250px;
